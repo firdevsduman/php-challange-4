@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/test1",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "firde",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "lib/helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-simplexml": "*"
+  }
+}
